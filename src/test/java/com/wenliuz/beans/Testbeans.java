@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Created by wenliu on 2017/6/1.
  */
 //@RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(locations = "classpath:beans.xml")
+//@ContextConfiguration(locations = "classpath:before.xml")
 public class Testbeans {
 
     @Test

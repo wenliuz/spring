@@ -1,4 +1,4 @@
-package com.wenliuz.aop.before.service;
+package com.wenliuz.aop.service;
 
 /**
  * Created by wenliu on 2017/6/6.

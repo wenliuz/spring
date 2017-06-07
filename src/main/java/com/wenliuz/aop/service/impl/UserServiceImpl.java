@@ -1,6 +1,6 @@
-package com.wenliuz.aop.before.service.impl;
+package com.wenliuz.aop.service.impl;
 
-import com.wenliuz.aop.before.service.UserService;
+import com.wenliuz.aop.service.UserService;
 import org.springframework.stereotype.Component;
 
 /**

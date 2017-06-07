@@ -10,7 +10,7 @@
 	http://www.springframework.org/schema/aop
 	http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
 	<!-- 指定自动搜索Bean组件、自动搜索切面类 -->
-	<context:component-scan base-package="com.wenliuz.aop.service,com.wenliuz.aop.before">
+	<context:component-scan base-package="com.wenliuz.aop.service,com.wenliuz.aop.afterReturn">
 		<context:include-filter type="annotation"
 			expression="org.aspectj.lang.annotation.Aspect"/>
 	</context:component-scan>

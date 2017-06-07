@@ -1,4 +1,4 @@
-package com.wenliuz.aop.before.aspect;
+package com.wenliuz.aop.before;
 
 
 import org.aspectj.lang.annotation.Aspect;
@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.Before;
 @Aspect
 public class AuthASpect {
 
-    @Before("execution(* com.wenliuz.aop.before.service.*.*(..))")
+    @Before("execution(* com.wenliuz.aop.service.*.*(..))")
     public void authority(){
         System.out.println("模拟权限检查");
     }

@@ -1,4 +1,4 @@
-package com.wenliuz.aop.before;
+package com.wenliuz.aop.afterReturning;
 
 import com.wenliuz.aop.service.OtherService;
 import com.wenliuz.aop.service.UserService;
@@ -9,13 +9,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * Created by wenliu on 2017/6/7.
  */
-public class BeforeTest {
+public class AfterReturningTest {
 
     @Test
     public void testBefore(){
         // 创建Spring容器
         ApplicationContext ctx = new
-                ClassPathXmlApplicationContext("aop/before.xml");
+                ClassPathXmlApplicationContext("aop/afterReturning.xml");
         UserService userService = ctx.getBean("userService" , UserService.class);
         userService.foo();
         userService.addUser("孙悟空" , "7788");
