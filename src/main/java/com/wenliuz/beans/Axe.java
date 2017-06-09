@@ -1,4 +1,4 @@
-package com.wenliuz.beans.entity;
+package com.wenliuz.beans;
 
 
 public class Axe

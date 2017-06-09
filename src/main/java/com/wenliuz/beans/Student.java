@@ -1,4 +1,4 @@
-package com.wenliuz.beans.entity;
+package com.wenliuz.beans;
 
 /**
  * Created by wenliu on 2017/6/1.
